@@ -28,6 +28,6 @@ class Artist
   def print_songs
     i = 0
     while i < self.songs.length
-      puts "#{self.songs."
+      puts "#{self.songs.song."
   end
 end
