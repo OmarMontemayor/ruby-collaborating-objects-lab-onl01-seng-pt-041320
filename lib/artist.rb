@@ -26,6 +26,8 @@ class Artist
   end
   
   def print_songs
-    self.songs
+    i = 0
+    while i < self.songs.length
+      puts 
   end
 end
