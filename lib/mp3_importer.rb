@@ -3,7 +3,7 @@ class MP3Importer
     
   end
   
-  def path
+  def path(test_music_path)
     
   end
 end
