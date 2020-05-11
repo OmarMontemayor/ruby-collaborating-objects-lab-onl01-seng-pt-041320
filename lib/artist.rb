@@ -20,6 +20,6 @@ class Artist
   end
   
   def self.find_or_create_by_name(artist)
-    self.all.first{|artist| @name == artist} || @@all << self
+    self.all.find{|artist| @name == artist} || @@all << self
   end
 end
